@@ -48,5 +48,6 @@ while True:
         elif posicion_x > 0 and posicion_y < 0:
             print("El punto está en el cuarto cuadrante.")
         else:
-            print("El punto está sobre uno de los ejes.")   
+           print("El punto está sobre uno de los ejes, Ingrese denuevo un valor.")   
+            continue  # Si el punto está sobre los ejes, volvemos a pedir las posiciones 
         break
